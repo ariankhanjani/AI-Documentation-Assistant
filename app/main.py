@@ -1,7 +1,7 @@
-from app.ingestion import load_document, split_documents
-from app.vector_store import create_vector_store
 from app.llm import create_llm
 from app.rag import generate_answer
+from app.vector_store import create_vector_store
+from app.ingestion import load_document, split_documents
 
 
 def main():
